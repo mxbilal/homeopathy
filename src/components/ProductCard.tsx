@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProductCard = ({ image, title }: { image: string; title: string }) => {
   return (
     <div className="group relative overflow-hidden">
