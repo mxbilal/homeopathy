@@ -1,3 +1,32 @@
-.banner-img{
-    background-image: url(../assets//banner.jpg);
+.banner-img {
+  background-image: url(../assets//banner.jpg);
+}
+@keyframes slowFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slowFadeInDelayed {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slow-fade-in {
+  animation: slowFadeIn 1s ease forwards;
+}
+
+.animate-slow-fade-in.delay-500 {
+  animation: slowFadeInDelayed 1s ease 0.5s forwards;
 }

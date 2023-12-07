@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const HeaderPage = () => {
@@ -24,7 +24,7 @@ const HeaderPage = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 bg-white px-4 md:px-20 py-2 border-b-2 border-lime-700 flex justify-between items-center">
+    <div className="sticky top-0 z-10 bg-white px-4 md:px-20 py-2 border-b-2 border-lime-700 flex justify-between items-center">
       {isMobile ? (
         <>
           <div className="flex gap-1">

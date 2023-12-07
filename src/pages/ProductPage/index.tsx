@@ -24,10 +24,13 @@ const productData = [
 
 const ProductsPage = () => {
   return (
-    <div className="container mx-auto my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {productData.map((product) => (
-        <ProductCard key={product.id} {...product} />
-      ))}
+    <div className="px-10 py-4 flex items-center flex-col">
+      <p className="font-bold text-3xl text-lime-800">Our Products</p>
+      <div className="container mx-auto my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {productData.map((product) => (
+          <ProductCard key={product.id} {...product} />
+        ))}
+      </div>
     </div>
   );
 };

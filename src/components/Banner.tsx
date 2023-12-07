@@ -11,10 +11,10 @@ const Banner = () => {
 
       {/* Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-2">
-        <h1 className="banner-text text-4xl md:text-6xl font-bold text-white mb-4 text-center">
+        <h1 className="banner-text text-4xl md:text-6xl font-bold text-white mb-4 text-center animate-slow-fade-in">
           Discover the Natural Power of Herbal Remedies
         </h1>
-        <p className="banner-text text-lg md:text-xl text-white text-center">
+        <p className="banner-text text-lg md:text-xl opacity-0 text-white text-center animate-slow-fade-in delay-500">
           Elevate your well-being with our curated selection of herbal products.
         </p>
       </div>
