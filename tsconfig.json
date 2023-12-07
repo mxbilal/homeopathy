@@ -18,11 +18,11 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+        "*": ["./*", "./custom.d.ts"]
+      }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }],
-  "paths": {
-      "*": ["*", "custom.d.ts"]
-    }
 }

@@ -19,20 +19,20 @@ const FooterPage = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <a href="/">Services</a>
             </li>
             <li>
-              <a href="/appointments">Appointments</a>
+              <a href="/">Appointments</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/3">
           <h2 className="text-2xl font-semibold mb-4">Developer Info</h2>
           <p>Email: mxbilal0@gmail.com</p>
-          <p>Phone: +923495683110</p>
+          <p>Phone: +92 349-5683110</p>
           <div className="flex gap-4 items-center mt-4">
             <a
               href="https://www.linkedin.com/in/mxbilal0/"
