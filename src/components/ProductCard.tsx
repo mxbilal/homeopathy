@@ -1,6 +1,17 @@
-const ProductCard = ({ image, title }: { image: string; title: string }) => {
+const ProductCard = ({
+  image,
+  title,
+  openDetail,
+}: {
+  image: string;
+  title: string;
+  openDetail: () => void;
+}) => {
   return (
-    <div className="group relative overflow-hidden">
+    <div
+      className="group relative overflow-hidden cursor-pointer"
+      onClick={openDetail}
+    >
       <img
         src={image}
         alt={title}
