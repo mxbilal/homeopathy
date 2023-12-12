@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const HeaderPage = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const navigate = useNavigate();
 
   const handleDrawerToggle = () => {
     setDrawerOpen(!drawerOpen);
@@ -23,14 +25,20 @@ const HeaderPage = () => {
     };
   }, []);
 
+  const goHome = () => navigate("/");
+
   return (
     <div className="sticky top-0 z-10 bg-white text-black px-4 md:px-20 py-2 border-b-2 border-lime-700 flex justify-between items-center">
       {isMobile ? (
         <>
           <div className="flex gap-1">
-            <p className="text-lg font-semibold cursor-pointer">
-              Homeo Clinic +
-            </p>
+            <img
+              src={logo}
+              alt="clinic"
+              width={40}
+              className="cursor-pointer hover:w-11"
+              onClick={goHome}
+            />
           </div>
           <div className="md:hidden">
             <button
@@ -103,7 +111,13 @@ const HeaderPage = () => {
         </>
       ) : (
         <div className="flex gap-1">
-          <p className="text-lg font-semibold cursor-pointer">Homeo Clinic +</p>
+          <img
+            src={logo}
+            alt="clinic"
+            width={40}
+            className="cursor-pointer hover:w-11"
+            onClick={goHome}
+          />
         </div>
       )}
 
