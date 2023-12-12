@@ -2,14 +2,14 @@ import p1 from "../../assets/p1.jpg";
 
 const ProductDetailPage = () => {
   const handlePurchase = () => {
-    const message = `Hi, I want to purchase the product ${name}.`;
-    const whatsappLink = `https://wa.me/+923495683110?text=${encodeURIComponent(
+    const message = `Hi, I want to purchase the product Vaginal Revive.`;
+    const whatsappLink = `https://wa.me/+923185685693?text=${encodeURIComponent(
       message
     )}`;
     window.location.replace(whatsappLink);
   };
   return (
-    <div className="flex justify-center items-center mt-10">
+    <div className="flex justify-center items-center mt-10 text-black bg-white">
       <div className="max-w-lg mx-auto bg-white p-8 border rounded shadow-md mb-10">
         <img
           src={p1}
