@@ -9,8 +9,8 @@ const FooterPage = () => {
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p>Muhammadi Homeopathic</p>
           <p>Qutba, Attock</p>
-          <p>Email: info@example.com</p>
-          <p>Phone: +123 456 7890</p>
+          <p>Email: Ibneaminsami3@gmail.com</p>
+          <p>Phone: +92 318-5685693</p>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/3 mb-4 lg:mb-0">
           <h2 className="text-2xl font-semibold mb-4">Quick Links</h2>

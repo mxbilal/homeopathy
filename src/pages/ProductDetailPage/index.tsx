@@ -2,7 +2,7 @@ import p1 from "../../assets/p1.jpg";
 
 const ProductDetailPage = () => {
   const handlePurchase = () => {
-    const message = `Hi, I want to purchase the product Vaginal Revive.`;
+    const message = `Hi, I want to purchase the Vaginal Revive.`;
     const whatsappLink = `https://wa.me/+923185685693?text=${encodeURIComponent(
       message
     )}`;
