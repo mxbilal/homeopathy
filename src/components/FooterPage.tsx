@@ -1,6 +1,8 @@
 import lnIcon from "../assets/linkedin.png";
 import instaIcon from "../assets/instagram.png";
 import twIcon from "../assets/twitter.png";
+import fbIcon from "../assets/facebook.png";
+
 const FooterPage = () => {
   return (
     <footer className="bg-gray-800 text-white p-8 mb-auto">
@@ -9,6 +11,14 @@ const FooterPage = () => {
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p>Email: Ibneaminsami3@gmail.com</p>
           <p>Phone: +92 318-5685693</p>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61554388898128&mibextid=ZbWKwL"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="mt-2" src={fbIcon} width={20} />
+          </a>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/3 mb-4 lg:mb-0">
           <h2 className="text-2xl font-semibold mb-4">Quick Links</h2>

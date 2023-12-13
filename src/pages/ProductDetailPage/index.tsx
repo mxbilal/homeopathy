@@ -8,6 +8,10 @@ const ProductDetailPage = () => {
     )}`;
     window.location.replace(whatsappLink);
   };
+  const goFb = () =>
+    window.location.replace(
+      "https://www.facebook.com/profile.php?id=61554388898128&mibextid=ZbWKwL"
+    );
   return (
     <div className="flex justify-center items-center mt-10 text-black bg-white">
       <div className="max-w-lg mx-auto bg-white p-8 border rounded shadow-md mb-10">
@@ -28,9 +32,15 @@ const ProductDetailPage = () => {
         <p className="text-gray-600 mb-6"></p>
         <button
           onClick={handlePurchase}
-          className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition duration-300"
+          className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition duration-300 mr-4"
         >
           Purchase on WhatsApp
+        </button>
+        <button
+          onClick={goFb}
+          className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+        >
+          Purchase on Facebook
         </button>
       </div>
     </div>
