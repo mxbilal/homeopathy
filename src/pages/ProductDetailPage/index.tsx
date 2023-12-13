@@ -32,7 +32,7 @@ const ProductDetailPage = () => {
         <p className="text-gray-600 mb-6"></p>
         <button
           onClick={handlePurchase}
-          className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition duration-300 mr-4"
+          className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition duration-300 mr-4 mb-4"
         >
           Purchase on WhatsApp
         </button>
