@@ -15,7 +15,7 @@ const HeaderPage = () => {
   const handleResize = () => {
     setIsMobile(window.innerWidth <= 768);
   };
-
+ 
   // Attach resize event listener
   useEffect(() => {
     window.addEventListener("resize", handleResize);
