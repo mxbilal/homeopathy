@@ -1,6 +1,5 @@
 import lnIcon from "../assets/linkedin.png";
 import instaIcon from "../assets/instagram.png";
-import twIcon from "../assets/twitter.png";
 import fbIcon from "../assets/facebook.png";
 import wpIcon from "../assets/whatsapp.png";
 
@@ -59,20 +58,19 @@ const FooterPage = () => {
             >
               <img src={lnIcon} width={20} />
             </a>
-
-            <a
-              href="https://twitter.com/mxbilal0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={twIcon} width={20} />
-            </a>
             <a
               href="https://www.instagram.com/mbilal22232/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={instaIcon} width={20} />
+            </a>
+            <a
+              href="https://wa.me/+923495683110"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={wpIcon} width={20} />
             </a>
           </div>
         </div>
