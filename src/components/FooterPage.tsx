@@ -27,6 +27,13 @@ const FooterPage = () => {
             >
               <img className="mt-2" src={wpIcon} width={20} />
             </a>
+            <a
+              href="https://www.instagram.com/revive.youself/?igsh=ODA1NTc5OTg5Nw%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="mt-2" src={instaIcon} width={20} />
+            </a>
           </div>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/3 mb-4 lg:mb-0">
